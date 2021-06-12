@@ -1,0 +1,12 @@
+.input {
+  margin-top: 10px;
+  border-radius: 5px;
+  padding-left: 10px;
+  box-shadow: 5px 5px 5px -5px rgba(37, 75, 151, 0.6);
+  transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.input:focus,
+.input:hover {
+  transform: scale(1.02);
+}
